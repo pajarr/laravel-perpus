@@ -12,11 +12,11 @@
   <title>Perpustakaan</title>
 
   <!-- Custom fonts for this template-->
-  <link href="/assets/admin/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="assets/admin/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
 
   <!-- Custom styles for this template-->
-  <link href="/assets/admin/css/sb-admin-2.min.css" rel="stylesheet">
+  <link href="../../assets/admin/css/sb-admin-2.min.css" rel="stylesheet">
 
 </head>
 
@@ -64,7 +64,7 @@
             <a class="collapse-item" href="{{ url('students') }}">Data Siswa</a>
             <a class="collapse-item" href="{{ url('rayons') }}">Data Rayon</a>
             <a class="collapse-item" href="{{ url('studentGroups') }}">Data Rombel</a>
-            <a class="collapse-item" href="{{ url('borrowings') }}">Data Peminjam</a>
+
           </div>
         </div>
       </li>
@@ -157,22 +157,22 @@
   </div>
 
   <!-- Bootstrap core JavaScript-->
-  <script src="/assets/admin/vendor/jquery/jquery.min.js"></script>
-  <script src="/assets/admin/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/admin/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/admin/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
   <!-- Core plugin JavaScript-->
-  <script src="/assets/admin/vendor/jquery-easing/jquery.easing.min.js"></script>
+  <script src="assets/admin/vendor/jquery-easing/jquery.easing.min.js"></script>
 
   <!-- Custom scripts for all pages-->
-  <script src="/assets/admin/js/sb-admin-2.min.js"></script>
+  <script src="assets/admin/js/sb-admin-2.min.js"></script>
 
   <!-- Page level plugins -->
-  <script src="/assets/admin/vendor/chart.js/Chart.min.js"></script>
+  <script src="assets/admin/vendor/chart.js/Chart.min.js"></script>
 
   <!-- Page level custom scripts -->
-  <script src="/assets/admin/js/demo/chart-area-demo.js"></script>
-  <script src="/assets/admin/js/demo/chart-pie-demo.js"></script>
+  <script src="assets/admin/js/demo/chart-area-demo.js"></script>
+  <script src="assets/admin/js/demo/chart-pie-demo.js"></script>
 
 </body>
 
-</h
+</html>
