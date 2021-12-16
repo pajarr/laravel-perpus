@@ -79,14 +79,14 @@
 
        <!-- Nav Item - Register -->
        <li class="nav-item">
-        <a class="nav-link" href="tables.html">
+        <a class="nav-link" href="/register">
           <i class="fas fa-fw fa-table"></i>
           <span>Register</span></a>
       </li>
 
       <!-- Nav Item - Login -->
       <li class="nav-item">
-        <a class="nav-link" href="charts.html">
+        <a class="nav-link" href="/">
           <i class="fas fa-fw fa-chart-area"></i>
           <span>Logout</span></a>
       </li>

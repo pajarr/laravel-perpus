@@ -22,9 +22,16 @@ use App\Http\Controllers\BorrowingController;
 Route::get('/', function () {
     return view('welcome');
 });
-Route::resource('/students', StudentController::class);
-Route::resource('/studentGroups', StudentGroupController::class);
-Route::resource('/rayons', RayonController::class);
-Route::resource('/publishers', PublisherController::class);
-Route::resource('/books', BookController::class);
-Route::resource('/borrowings', BorrowingController::class);
+
+Route::resource('students', StudentController::class);
+Route::resource('studentGroups', StudentGroupController::class);
+Route::resource('rayons', RayonController::class);
+Route::resource('publishers', PublisherController::class);
+Route::resource('books', BookController::class);
+Route::resource('borrowings', BorrowingController::class);
+
+Route::get('/dashboard', function () {
+    return view('dashboard');
+})->middleware(['auth'])->name('dashboard');
+
+require __DIR__.'/auth.php';
